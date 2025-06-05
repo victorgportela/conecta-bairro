@@ -1,0 +1,43 @@
+name: conecta_bairro_flutter
+description: "App mobile do Conecta Bairro - Sistema de Divulgação de Serviços Locais"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP requests
+  http: ^1.1.0
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Local storage
+  shared_preferences: ^2.2.2
+  
+  # JSON annotation
+  json_annotation: ^4.8.1
+  
+  # URL launcher
+  url_launcher: ^6.2.2
+  
+  # Material Design
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting
+  flutter_lints: ^3.0.0
+  
+  # JSON serialization
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true 
