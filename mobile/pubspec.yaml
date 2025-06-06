@@ -20,7 +20,7 @@ dependencies:
   shared_preferences: ^2.2.2
   
   # JSON annotation
-  json_annotation: ^4.8.1
+  json_annotation: ^4.9.0
   
   # URL launcher
   url_launcher: ^6.2.2
